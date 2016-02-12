@@ -1,16 +1,13 @@
 
 section#container {position:relative; margin:auto;}
-/*header h3{position:relative; top:30px; left:10px; font-family:optima; font-size:20px; font-color:white;}*/
-footer {position:fixed; bottom:30px; width:150px; text-align:left; padding:5px;}
+#logo{position:absolute; top:0px; left:10px; width:150px; height:400px;}
+footer {position:fixed; bottom:15px; width:150px; text-align:left; padding:5px;}
 
 div {cursor:move;}
 img.pic {margin:5px; width:150px; opacity:1;}
-img.big {width:800px;}
+img.big {width:800px; max-height:650px;}
 
- #imagelist {
-            width: 150px;
-            float: left;
-         }
+#imagelist {width:150px; float:left;}
 
 section#frontarea {position:absolute; top:0px; left:0px; width:190px; height:100%; background-color:#00BB9C;}
 section#thumbarea {position:absolute; top:0px; left:190px; width:175px; height:100%; background-color:#CEF900;}
@@ -19,7 +16,7 @@ section#showarea {position:absolute; top:0px; left:365px; width:100%; height:100
 nav#valid {position:relative; left:35px; margin-top: 45px;}
 
 #shows {position:relative;}
-#shows li {list-style-type:none; position:relative; left:-15px; height:30px; width:120px; background-color:white; border-radius:5px; font-family:arial; color:#00BB9C; text-align:center;}
+#shows li {list-style-type:none; position:relative; left:-15px; height:30px; width:120px; background-color:white; border-radius:5px; font-family:arial; color:#00BB9C; text-align:center; margin-top:-18px;}
 #shows li h5 {padding:8px;}
 #shows a:link{text-decoration:none;}
 #shows a:visited{text-decoration:none;}
@@ -28,4 +25,3 @@ nav#valid {position:relative; left:35px; margin-top: 45px;}
 #main {position:relative; left:150px; top:10px;}
 #main .show { opacity: 0; position: absolute; top:5px; left:180px; }
 #main .thumb:hover + .show { opacity: 1;  transition: opacity 1s ease-in-out;}
-/*#backpic {display:block; width:500px; top:20px; left:250px; position:absolute;}*/
